@@ -2,4 +2,4 @@
 
 read -p 'searching for? ' search 
 
-find / -iname "*$search*" 2>/dev/null | grep -v FOO  #grep -v to exclude folder/file of your choice
+find / -iname "*$search*" 2>/dev/null | grep -v FOO  #grep -v to exclude folder/file of choice
