@@ -1,7 +1,5 @@
 #!/bin/bash
 
 read -p 'searching for? ' search 
-#read -p 'what directory? ' dir
-#find / -iname "*$search*" 2>/dev/null
 
-find / -iname "*$search*" 2>/dev/null | grep -v CEM
+find / -iname "*$search*" 2>/dev/null | grep -v FOO  #grep -v to not include folder/file of your choice
